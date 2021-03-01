@@ -1,0 +1,1 @@
+erl -detached -sname tcp_server -args_file  etc/vm.args

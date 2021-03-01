@@ -1,0 +1,9 @@
+{application,tcp_server,
+             [{registered,[]},
+              {vsn,"1.0.0.1"},
+              {description,[116,99,112,32,26381,21153,31471,36981,24490,32,
+                            111,116,112,32,26550,26500]},
+              {applications,[kernel,stdlib,lager]},
+              {mod,{tcp_server_app,[]}},
+              {modules,[tcp_msg_handle,tcp_msg_sup,tcp_server_app,
+                        tcp_server_listener,tcp_server_sup]}]}.

@@ -1,0 +1,10 @@
+{
+    application,
+    tcp_server, %% 原子tcp_server表示该应用的名字
+    [
+        {vsn, "1.0.0.1"}, %% 表示应用的版本号
+        {description, "tcp 服务端遵循 otp 架构"}, %% 应用的字符串描述
+        {applications, [kernel, stdlib, lager]}, %% 该应用依赖的其他应用
+        {mod, {tcp_server_app, []}} %% 应用的入口模块, 由{app_mod, parameters}组成，应用master会通过调用入口模块的start/2函数来启动应用,　start的第一个参数为启动类型，　由系统自己传入，　第二个参数由这里的parameters传入
+    ]
+}.

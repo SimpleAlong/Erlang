@@ -1,0 +1,6 @@
+{application,tcp_client, [
+    {vsn, "1.0.0.1"},
+    {description, "tcp 客户端遵循 otp 架构"},
+    {applications, [kernel, stdlib, lager]},
+    {mod, {tcp_client_app, []}}
+]}.

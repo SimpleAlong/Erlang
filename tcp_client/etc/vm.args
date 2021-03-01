@@ -1,0 +1,5 @@
+-pa ./ebin
+-hidden
++P 1000000
++Q 1000000
+-eval "tcp_client_app:ensure_start()."

@@ -1,0 +1,6 @@
+-pa ./ebin
+-setcookie hexagon_a60HiasdLGLe9Vj8
+-hidden
++P 1000000
++Q 1000000
+-eval "tcp_server_app:app_start()."
